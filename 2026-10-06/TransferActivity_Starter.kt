@@ -38,7 +38,7 @@ import javax.inject.Inject
 
 // MARK: - BEFORE: the Massive Activity (do not edit — refactor FROM this)
 
-class BeforeMassiveTransferActivity : android.app.Activity() {
+class BeforeMassiveTransferActivity : Activity() {
     lateinit var fromAccount: Account
     lateinit var toAccount: Account
 
